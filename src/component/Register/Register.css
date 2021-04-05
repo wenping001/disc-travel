@@ -1,0 +1,60 @@
+.register{
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+
+main{
+    padding:0  4rem;
+    margin: 0 auto;
+}
+main h3{
+    font-size: 1.7rem;
+    font-weight: normal;
+    margin-bottom: 3rem;
+}
+
+main label{
+    font-size: .9rem;
+    color: rgba(0,0,0,0.4);
+}
+main label span{
+    color: #0070FF;
+    font-size: .8rem;
+    cursor: pointer;
+}
+.input-container{
+    display: grid;
+    place-items: center;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1.5rem 2rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+main button{
+    width: 200px;
+    margin-top: 2rem;
+    cursor: pointer;
+    display: block;
+    padding: .8rem 5rem;
+    background-color: #0070FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    transition: background-color 200ms ease-in-out;
+    margin-bottom: 2rem;
+    margin-left: .4rem;
+}
+main button:hover{
+    background-color: #2986f6;
+}
+
+main p{
+    color: rgba(0,0,0,0.6);
+}
+main p span{
+    color: #0070FF;
+    cursor: pointer;
+}

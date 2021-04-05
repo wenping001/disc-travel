@@ -1,0 +1,12 @@
+.home {
+}
+.home__banner {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.home__banner img {
+  width: 100%;
+}

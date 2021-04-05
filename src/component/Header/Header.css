@@ -1,0 +1,8 @@
+.content{
+    display: flex;
+    justify-content: center;
+    background-color: #E4E4FB;
+}
+.navBar{
+    margin-left: auto;
+}

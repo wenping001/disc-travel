@@ -1,0 +1,6 @@
+.content{
+    height: 100%;
+    display: flex;
+    place-items: center;
+    margin-top: 2rem;
+}

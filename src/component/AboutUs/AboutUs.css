@@ -1,0 +1,18 @@
+.about-us{
+    width: 70%;
+    background-color: white;
+    padding: 0 2rem;
+}
+.about-us h1{
+    font-size: 2rem;
+    color: gold;
+    font-weight: normal;
+    margin-top: 2rem;
+}
+.about-us p{
+    line-height: 2;
+}
+.highlight{
+    font-size: 2rem ;
+    color: #F9BF45;
+}
